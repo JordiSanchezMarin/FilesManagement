@@ -1,0 +1,123 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1039" measuredH="723" mockupW="1039" mockupH="723">
+  <controls>
+    <control controlID="46" controlTypeID="__group__" x="0" y="0" w="1039" h="723" measuredW="1039" measuredH="723" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="1039" h="723" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="46">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <color>14540253</color>
+            <text>FilesManagement%0Ahttp%3A//www.filesmanagement.com</text>
+            <verticalScrollbar>false</verticalScrollbar>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="0" y="84" w="1039" h="122" measuredW="1039" measuredH="122" zOrder="1" locked="false" isInGroup="46">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="46" y="0" w="164" h="118" measuredW="659" measuredH="444" zOrder="0" locked="false" isInGroup="1">
+              <controlProperties>
+                <src>./assets/fm.gif</src>
+              </controlProperties>
+            </control>
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="112" w="1039" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="1">
+              <controlProperties>
+                <stroke>solid</stroke>
+              </controlProperties>
+            </control>
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="255" y="75" w="277" h="-1" measuredW="244" measuredH="32" zOrder="2" locked="false" isInGroup="1">
+              <controlProperties>
+                <size>24</size>
+                <state>disabled</state>
+                <text>Files%20Management%20S.L.</text>
+                <textOrientation>right</textOrientation>
+              </controlProperties>
+            </control>
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="737" y="4" w="70" h="-1" measuredW="70" measuredH="28" zOrder="3" locked="false" isInGroup="1">
+              <controlProperties>
+                <size>20</size>
+                <text>Usuario</text>
+              </controlProperties>
+            </control>
+            <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="737" y="41" w="107" h="-1" measuredW="106" measuredH="28" zOrder="4" locked="false" isInGroup="1">
+              <controlProperties>
+                <size>20</size>
+                <text>Contrase%F1a</text>
+              </controlProperties>
+            </control>
+            <control controlID="5" controlTypeID="com.balsamiq.mockups::TextInput" x="857" y="5" w="159" h="-1" measuredW="79" measuredH="26" zOrder="5" locked="false" isInGroup="1"/>
+            <control controlID="6" controlTypeID="com.balsamiq.mockups::TextInput" x="857" y="42" w="159" h="-1" measuredW="79" measuredH="26" zOrder="6" locked="false" isInGroup="1"/>
+            <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="934" y="72" w="82" h="35" measuredW="59" measuredH="27" zOrder="7" locked="false" isInGroup="1">
+              <controlProperties>
+                <color>10066329</color>
+                <href>Gestion%20de%20archivos%26bm%3BGestion%20de%20archivos.bmml%26bm%3BGestion%20de%20archivos.bmml%26bm%3BGestion%20de%20archivos.bmml</href>
+                <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22934%2C156%2C1016%2C191%22%20href%3D%22Gestion%2520de%2520archivos.bmml%22%20alt%3D%22Gestion%20de%20archivos%22%20id%3D%227%22/%3E</map>
+                <text>Entrar</text>
+              </controlProperties>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Image" x="81" y="283" w="400" h="343" measuredW="400" measuredH="300" zOrder="2" locked="false" isInGroup="46">
+          <controlProperties>
+            <src>./assets/DocuXplorer.jpg</src>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="81" y="229" w="-1" h="-1" measuredW="371" measuredH="26" zOrder="3" locked="false" isInGroup="46">
+          <controlProperties>
+            <size>18</size>
+            <text>Organiza%20tus%20archivos%20en%20la%20nube%20a%20tu%20manera</text>
+          </controlProperties>
+        </control>
+        <control controlID="4" controlTypeID="com.balsamiq.mockups::Canvas" x="566" y="259" w="387" h="396" measuredW="100" measuredH="70" zOrder="4" locked="false" isInGroup="46">
+          <controlProperties>
+            <borderStyle>roundedSolid</borderStyle>
+          </controlProperties>
+        </control>
+        <control controlID="5" controlTypeID="com.balsamiq.mockups::Title" x="637" y="283" w="233" h="-1" measuredW="190" measuredH="43" zOrder="5" locked="false" isInGroup="46">
+          <controlProperties>
+            <text>Reg%EDstrate</text>
+          </controlProperties>
+        </control>
+        <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="612" y="354" w="-1" h="-1" measuredW="63" measuredH="26" zOrder="6" locked="false" isInGroup="46">
+          <controlProperties>
+            <size>18</size>
+            <text>Nombre</text>
+          </controlProperties>
+        </control>
+        <control controlID="7" controlTypeID="com.balsamiq.mockups::Label" x="770" y="354" w="-1" h="-1" measuredW="74" measuredH="26" zOrder="7" locked="false" isInGroup="46">
+          <controlProperties>
+            <size>18</size>
+            <text>Apellidos</text>
+          </controlProperties>
+        </control>
+        <control controlID="8" controlTypeID="com.balsamiq.mockups::Label" x="612" y="410" w="-1" h="-1" measuredW="153" measuredH="26" zOrder="8" locked="false" isInGroup="46">
+          <controlProperties>
+            <size>18</size>
+            <text>Correo%20electr%F3nico</text>
+          </controlProperties>
+        </control>
+        <control controlID="9" controlTypeID="com.balsamiq.mockups::Label" x="612" y="468" w="-1" h="-1" measuredW="217" measuredH="26" zOrder="9" locked="false" isInGroup="46">
+          <controlProperties>
+            <size>18</size>
+            <text>Vuelve%20a%20escribir%20tu%20correo</text>
+          </controlProperties>
+        </control>
+        <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="612" y="531" w="-1" h="-1" measuredW="95" measuredH="26" zOrder="10" locked="false" isInGroup="46">
+          <controlProperties>
+            <size>18</size>
+            <text>Contrase%F1a</text>
+          </controlProperties>
+        </control>
+        <control controlID="11" controlTypeID="com.balsamiq.mockups::TextInput" x="612" y="380" w="149" h="-1" measuredW="79" measuredH="26" zOrder="11" locked="false" isInGroup="46"/>
+        <control controlID="12" controlTypeID="com.balsamiq.mockups::TextInput" x="770" y="380" w="168" h="-1" measuredW="79" measuredH="26" zOrder="12" locked="false" isInGroup="46"/>
+        <control controlID="13" controlTypeID="com.balsamiq.mockups::TextInput" x="612" y="436" w="326" h="-1" measuredW="79" measuredH="26" zOrder="13" locked="false" isInGroup="46"/>
+        <control controlID="14" controlTypeID="com.balsamiq.mockups::TextInput" x="612" y="494" w="326" h="-1" measuredW="79" measuredH="26" zOrder="14" locked="false" isInGroup="46"/>
+        <control controlID="15" controlTypeID="com.balsamiq.mockups::TextInput" x="612" y="557" w="326" h="-1" measuredW="79" measuredH="26" zOrder="15" locked="false" isInGroup="46"/>
+        <control controlID="16" controlTypeID="com.balsamiq.mockups::Button" x="794" y="599" w="125" h="42" measuredW="117" measuredH="28" zOrder="16" locked="false" isInGroup="46">
+          <controlProperties>
+            <color>10066329</color>
+            <size>20</size>
+            <text>Reg%EDstrate</text>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

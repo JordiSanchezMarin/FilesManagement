@@ -1,0 +1,126 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1039" measuredH="723" mockupW="1039" mockupH="723">
+  <controls>
+    <control controlID="0" controlTypeID="__group__" x="0" y="0" w="1039" h="723" measuredW="1039" measuredH="723" zOrder="0" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="1039" h="723" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="0">
+          <controlProperties>
+            <borderStyle>square</borderStyle>
+            <color>14540253</color>
+            <text>FilesManagement%0Ahttp%3A//www.filesmanagement.com</text>
+            <verticalScrollbar>false</verticalScrollbar>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="__group__" x="0" y="86" w="1039" h="609" measuredW="1039" measuredH="609" zOrder="1" locked="false" isInGroup="0">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="0" y="0" w="1039" h="609" measuredW="1039" measuredH="609" zOrder="0" locked="false" isInGroup="1">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="46" y="0" w="164" h="118" measuredW="659" measuredH="444" zOrder="0" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <src>./assets/fm.gif</src>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="112" w="1039" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <stroke>solid</stroke>
+                  </controlProperties>
+                </control>
+                <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="255" y="75" w="277" h="-1" measuredW="244" measuredH="32" zOrder="2" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <size>24</size>
+                    <state>disabled</state>
+                    <text>Files%20Management%20S.L.</text>
+                    <textOrientation>right</textOrientation>
+                  </controlProperties>
+                </control>
+                <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="897" y="13" w="122" h="-1" measuredW="98" measuredH="28" zOrder="3" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <size>20</size>
+                    <text>UserName</text>
+                  </controlProperties>
+                </control>
+                <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="882" y="75" w="137" h="-1" measuredW="128" measuredH="28" zOrder="4" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <href>Login%26bm%3BLogin.bmml%26bm%3BLogin.bmml%26bm%3BLogin.bmml</href>
+                    <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22882%2C161%2C1019%2C189%22%20href%3D%22Login.bmml%22%20alt%3D%22Login%22%20id%3D%224%22/%3E</map>
+                    <size>20</size>
+                    <text>Cerrar%20Sesi%F3n</text>
+                  </controlProperties>
+                </control>
+                <control controlID="8" controlTypeID="com.balsamiq.mockups::Icon" x="818" y="0" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="5" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <icon>ContactIcon%7Cxlarge</icon>
+                  </controlProperties>
+                </control>
+                <control controlID="12" controlTypeID="__group__" x="0" y="116" w="1036" h="34" measuredW="1036" measuredH="34" zOrder="6" locked="false" isInGroup="0">
+                  <groupChildrenDescriptors>
+                    <control controlID="2" controlTypeID="__group__" x="0" y="0" w="1036" h="34" measuredW="1036" measuredH="34" zOrder="0" locked="false" isInGroup="12">
+                      <groupChildrenDescriptors>
+                        <control controlID="0" controlTypeID="com.balsamiq.mockups::MenuBar" x="0" y="0" w="1036" h="34" measuredW="702" measuredH="29" zOrder="0" locked="false" isInGroup="2">
+                          <controlProperties>
+                            <borderStyle>square</borderStyle>
+                            <selectedIndex>-1</selectedIndex>
+                            <text>%20%20%20%20%20%20Gesti%F3n%20de%20archivos%2C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Editar%20Perfil%2C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Social%2C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Ayuda</text>
+                          </controlProperties>
+                        </control>
+                      </groupChildrenDescriptors>
+                    </control>
+                  </groupChildrenDescriptors>
+                </control>
+                <control controlID="15" controlTypeID="com.balsamiq.mockups::ProgressBar" x="710" y="155" w="187" h="20" measuredW="100" measuredH="20" zOrder="7" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <indeterminate>false</indeterminate>
+                    <scrollBarValue>33</scrollBarValue>
+                  </controlProperties>
+                </control>
+                <control controlID="16" controlTypeID="com.balsamiq.mockups::BreadCrumbs" x="31" y="153" w="-1" h="-1" measuredW="117" measuredH="27" zOrder="8" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <hrefs>Gestion%20de%20archivos%26bm%3BGestion%20de%20archivos.bmml%26bm%3BGestion%20de%20archivos.bmml%26bm%3BGestion%20de%20archivos.bmml%2CGestion%20de%20archivos%26bm%3BGestion%20de%20archivos.bmml%26bm%3BGestion%20de%20archivos.bmml%26bm%3BGestion%20de%20archivos.bmml</hrefs>
+                    <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2231%2C244.5%2C35%2C260.5%22%20href%3D%22Gestion%2520de%2520archivos.bmml%22%20alt%3D%22Gestion%20de%20archivos%22%20id%3D%2216%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%2247%2C244.5%2C152%2C260.5%22%20href%3D%22Gestion%2520de%2520archivos.bmml%22%20alt%3D%22Gestion%20de%20archivos%22%20id%3D%2216%22/%3E</map>
+                    <size>16</size>
+                    <text>%2CDirectorio%20ra%EDz</text>
+                  </controlProperties>
+                </control>
+                <control controlID="30" controlTypeID="com.balsamiq.mockups::Label" x="591" y="155" w="104" h="-1" measuredW="103" measuredH="24" zOrder="9" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <size>16</size>
+                    <text>0%2C3%20GB%20/%202%20GB</text>
+                  </controlProperties>
+                </control>
+                <control controlID="33" controlTypeID="com.balsamiq.mockups::Icon" x="994" y="153" w="-1" h="-1" measuredW="32" measuredH="32" zOrder="10" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <color>0</color>
+                    <icon>EmailIcon%7Cmedium</icon>
+                  </controlProperties>
+                </control>
+                <control controlID="34" controlTypeID="com.balsamiq.mockups::DataGrid" x="0" y="200" w="1039" h="409" measuredW="1014" measuredH="99" zOrder="11" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <borderStyle>square</borderStyle>
+                    <hLines>true</hLines>
+                    <rowHeight>78</rowHeight>
+                    <text>%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%2C%20Nombre%20amigo%2C%20Descripcion%20de%20la%20petici%F3n%2C%20Fecha%2C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%2C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%0A%2C%20Carlos%20Garcia%2C%20Carlos%20desea%20compartir%20contigo%20el%20archivo%20%22Big_Bang_Theory10x02%22%20con%20extension%20%22.mkv%22%2C%2026/11/2013</text>
+                    <vLines>false</vLines>
+                  </controlProperties>
+                </control>
+                <control controlID="35" controlTypeID="com.balsamiq.mockups::Icon" x="16" y="228" w="-1" h="-1" measuredW="64" measuredH="64" zOrder="12" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <icon>ContactIcon%7Cxlarge</icon>
+                  </controlProperties>
+                </control>
+                <control controlID="36" controlTypeID="com.balsamiq.mockups::Button" x="844" y="243" w="76" h="35" measuredW="70" measuredH="27" zOrder="13" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <text>Aceptar</text>
+                  </controlProperties>
+                </control>
+                <control controlID="37" controlTypeID="com.balsamiq.mockups::Button" x="947" y="245" w="75" h="35" measuredW="77" measuredH="27" zOrder="14" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <text>Cancelar</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>
