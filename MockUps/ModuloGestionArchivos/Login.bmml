@@ -10,19 +10,19 @@
             <verticalScrollbar>false</verticalScrollbar>
           </controlProperties>
         </control>
-        <control controlID="1" controlTypeID="__group__" x="0" y="84" w="1039" h="122" measuredW="1039" measuredH="122" zOrder="1" locked="false" isInGroup="46">
+        <control controlID="1" controlTypeID="__group__" x="0" y="78" w="1039" h="128" measuredW="1039" measuredH="128" zOrder="1" locked="false" isInGroup="46">
           <groupChildrenDescriptors>
-            <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="46" y="0" w="164" h="118" measuredW="659" measuredH="444" zOrder="0" locked="false" isInGroup="1">
+            <control controlID="0" controlTypeID="com.balsamiq.mockups::Image" x="24" y="0" w="164" h="118" measuredW="202" measuredH="177" zOrder="1" locked="false" isInGroup="1">
               <controlProperties>
-                <src>./assets/fm.gif</src>
+                <src>./assets/logo.png</src>
               </controlProperties>
             </control>
-            <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="112" w="1039" h="-1" measuredW="100" measuredH="10" zOrder="1" locked="false" isInGroup="1">
+            <control controlID="1" controlTypeID="com.balsamiq.mockups::HRule" x="0" y="118" w="1039" h="-1" measuredW="100" measuredH="10" zOrder="0" locked="false" isInGroup="1">
               <controlProperties>
                 <stroke>solid</stroke>
               </controlProperties>
             </control>
-            <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="255" y="75" w="277" h="-1" measuredW="244" measuredH="32" zOrder="2" locked="false" isInGroup="1">
+            <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="255" y="81" w="277" h="-1" measuredW="244" measuredH="32" zOrder="2" locked="false" isInGroup="1">
               <controlProperties>
                 <size>24</size>
                 <state>disabled</state>
@@ -30,21 +30,21 @@
                 <textOrientation>right</textOrientation>
               </controlProperties>
             </control>
-            <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="737" y="4" w="70" h="-1" measuredW="70" measuredH="28" zOrder="3" locked="false" isInGroup="1">
+            <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="737" y="10" w="70" h="-1" measuredW="70" measuredH="28" zOrder="3" locked="false" isInGroup="1">
               <controlProperties>
                 <size>20</size>
                 <text>Usuario</text>
               </controlProperties>
             </control>
-            <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="737" y="41" w="107" h="-1" measuredW="106" measuredH="28" zOrder="4" locked="false" isInGroup="1">
+            <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="737" y="47" w="107" h="-1" measuredW="106" measuredH="28" zOrder="4" locked="false" isInGroup="1">
               <controlProperties>
                 <size>20</size>
                 <text>Contrase%F1a</text>
               </controlProperties>
             </control>
-            <control controlID="5" controlTypeID="com.balsamiq.mockups::TextInput" x="857" y="5" w="159" h="-1" measuredW="79" measuredH="26" zOrder="5" locked="false" isInGroup="1"/>
-            <control controlID="6" controlTypeID="com.balsamiq.mockups::TextInput" x="857" y="42" w="159" h="-1" measuredW="79" measuredH="26" zOrder="6" locked="false" isInGroup="1"/>
-            <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="934" y="72" w="82" h="35" measuredW="59" measuredH="27" zOrder="7" locked="false" isInGroup="1">
+            <control controlID="5" controlTypeID="com.balsamiq.mockups::TextInput" x="857" y="11" w="159" h="-1" measuredW="79" measuredH="26" zOrder="5" locked="false" isInGroup="1"/>
+            <control controlID="6" controlTypeID="com.balsamiq.mockups::TextInput" x="857" y="48" w="159" h="-1" measuredW="79" measuredH="26" zOrder="6" locked="false" isInGroup="1"/>
+            <control controlID="7" controlTypeID="com.balsamiq.mockups::Button" x="934" y="78" w="82" h="35" measuredW="59" measuredH="27" zOrder="7" locked="false" isInGroup="1">
               <controlProperties>
                 <color>10066329</color>
                 <href>Gestion%20de%20archivos%26bm%3BGestion%20de%20archivos.bmml%26bm%3BGestion%20de%20archivos.bmml%26bm%3BGestion%20de%20archivos.bmml</href>
