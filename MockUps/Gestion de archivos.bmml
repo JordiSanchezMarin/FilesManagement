@@ -55,6 +55,8 @@
                             <control controlID="0" controlTypeID="com.balsamiq.mockups::MenuBar" x="0" y="0" w="1036" h="34" measuredW="702" measuredH="29" zOrder="0" locked="false" isInGroup="2">
                               <controlProperties>
                                 <borderStyle>square</borderStyle>
+                                <hrefs>Gestion%20de%20archivos%26bm%3BGestion%20de%20archivos.bmml%26bm%3BGestion%20de%20archivos.bmml%26bm%3BGestion%20de%20archivos.bmml%2CEditarPerfil%26bm%3BEditarPerfil.bmml%26bm%3BEditarPerfil.bmml%26bm%3BEditarPerfil.bmml%2C%2C</hrefs>
+                                <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2218%2C214.5%2C167%2C227.5%22%20href%3D%22Gestion%2520de%2520archivos.bmml%22%20alt%3D%22Gestion%20de%20archivos%22%20id%3D%220%22/%3E%3Carea%20shape%3D%22rect%22%20coords%3D%22176%2C214.5%2C345%2C227.5%22%20href%3D%22EditarPerfil.bmml%22%20alt%3D%22EditarPerfil%22%20id%3D%220%22/%3E</map>
                                 <selectedIndex>-1</selectedIndex>
                                 <text>%20%20%20%20%20%20Gesti%F3n%20de%20archivos%2C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Editar%20Perfil%2C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Social%2C%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20Ayuda</text>
                               </controlProperties>
