@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" content="" />
+  <title>FilesManagement</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript">
+      var registroOK;
+      function registrar() {
+          var cliente = new Object();
+          cliente.nombre = document.getElementById("nombre").value;
+          cliente.nombre2 = document.getElementById("apellidos").value;
+          cliente.correo = document.getElementById("correo").value;
+          cliente.correo2 = document.getElementById("correo2").value;
+          cliente.contraseña = document.getElementById("contraseña").value;
+          cliente.contraseña2 = document.getElementById("contraseña2").value;
+          if (cliente.nombre == null || cliente.nombre2 == null || cliente.correo == null ||
+          cliente.correo2 == null || cliente.contraseña == null || cliente.contraseña2 == null) {
+              alert("Para registrarte debes introducir todos los campos");
+          }
+          else if (cliente.correo != cliente.correo2) {
+              registroOK = false;
+              alert("Los dos correos deben coincidir");
+          }
+          else if (cliente.contraseña != cliente.contraseña2) {
+              alert("Las dos contraseñas deben coincidir");
+              registroOK = false;
+          }
+          else if (document.getElementById("chek").checked != true) {
+              alert("Debes aceptar las condiciones de uso");
+              registroOK = false;
+          }
+          else {
+              alert("Se ha registrado correctamente, revise su correo para aceptar la invitacion");
+              registroOK = true;   
+          }
+
+      }
+  </script>
+</head>
+<body style="background-color:#303030">
+<div class="container" >
+	<div class="row clearfix">
+		<div class="col-md-12 column" style="background-color:#303030;color:#707070;font-size:12px;font-family:Verdana">
+            <!--<nav class="navbar navbar-default navbar-inverse" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">Brand</a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">Link</a>
+						</li>
+						<li>
+							<a href="#">Link</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Action</a>
+								</li>
+								<li>
+									<a href="#">Another action</a>
+								</li>
+								<li>
+									<a href="#">Something else here</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">One more separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" />
+						</div> <button type="submit" class="btn btn-default">Submit</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">Link</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Action</a>
+								</li>
+								<li>
+									<a href="#">Another action</a>
+								</li>
+								<li>
+									<a href="#">Something else here</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</nav>-->
+            <div class="row clearfix">
+                <div class="col-md-3 column">
+                <img src="img/logoFM.png" alt="logo" style="width:230px;height:140px"/>
+                </div>
+                <div class="col-md-6 column">
+                </div>
+                <div class="col-md-3 column" style="height:135px">
+                    <form role="form">
+				        <div class="form-group" style="margin-bottom:1px">
+					         <label for="exampleInputEmail1">Usuario</label><input type="email" class="form-control" id="exampleInputEmail1" style="height:27px" />
+				        </div>
+				        <div class="form-group" style="margin-bottom:1px">
+					         <label for="exampleInputPassword1">Contraseña</label><input type="password" class="form-control" id="exampleInputPassword1" style="height:27px"/>
+				        </div>
+				        <div class="checkbox" style="margin-bottom:1px">
+					         <label><input type="checkbox" style="margin-top:8.3px" />Recordar contraseña&nbsp;&nbsp;&nbsp; </label> 
+                             <button  type="button" class="btn btn-inverse" style="background-color:#c4c4c4;color:#303030;height:33px;width:95px" contenteditable="true"><strong> Entrar</strong></button>
+				        </div> 
+			        </form>
+                </div>
+            </div>
+        </div>
+	</div>
+	<div class="row clearfix" style="height:500px;border:7px solid #303030;background-color:#c4c4c4">
+		<div class="col-md-6 column">
+		</div>
+        <div class="col-md-6 column">
+            <form class="bs-example form-horizontal" style="margin-top:50px;">
+                <fieldset>
+                  <legend>Registro</legend>
+                              <div class="form-group">
+                                <div class="col-lg-10">
+                                    <div class="row clearfix">
+                                        <div class="col-md-5 column">
+                                             <input id="nombre" type="text" class="form-control" style="width:150px" placeholder="Nombre">
+                                             
+                                        </div>
+                                        <div class="col-md-7 column">
+                                        <input id="apellidos" type="text" class="form-control" placeholder="Apellidos">
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <div class="col-lg-10">
+                                  <input id="correo" type="text" class="form-control" placeholder="Email">
+                                </div>
+                              </div>
+                               <div class="form-group">
+                                <div class="col-lg-10">
+                                  <input id="correo2" type="text" class="form-control" placeholder="Vuelve a escribir tu email">
+                                </div>
+                              </div>
+                              <div class="form-group">
+                                <div class="col-lg-10">
+                                  <input id="contraseña" type="password" class="form-control" placeholder="Contraseña">
+                                </div>
+                              </div>
+
+                              <div class="form-group">
+                                <div class="col-lg-10">
+                                  <input id="contraseña2" type="password" class="form-control" placeholder="Repite la contraseña">
+                                  <div class="checkbox" style="margin-top:10px">
+                                    <label>
+                                      <input id="chek" type="checkbox"> Acepto las condiciones y terminos de uso
+                                    </label>
+                                  </div>
+                                </div>
+                              </div>
+                                <div class="form-group">
+                                <div class="row clearfix">
+                                 <div class="col-md-12 column">
+                                    <button type="submit" class="btn btn-inverse" style="background-color:#303030;color:#c4c4c4;margin-left:14px;margin-top:10px" onclick="registrar();"><strong> Finalizar</strong></button> 
+                                 
+			                                     <a id="modal-485983" href="#modal-container-485983" role="button" class="btn" data-toggle="modal"><button type="submit" class="btn btn-inverse" style="background-color:#303030;color:#c4c4c4;margin-top:10px"><strong>Terminos</strong></button></a>
+			
+			                                    <div class="modal fade" id="modal-container-485983" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				                                    <div class="modal-dialog">
+					                                    <div class="modal-content" style = "background-color:#C0C0C0">
+						                                    <div class="modal-header" style="background-color:#242424 ">
+							                                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="color:#C0C0C0">×</button>
+							                                    <h4 class="modal-title" id="myModalLabel" style="color:#C0C0C0;font-family:Verdana;">
+								                                    <strong>Condiciones y terminos de uso</strong>
+							                                    </h4>
+						                                    </div>
+						                                    <div class="modal-body" style="text-align:left;font-family:Verdana;background-color:#C0C0C0;">
+							                                     <div class="bs-docs-example">
+                                                                    <div class="btn-group btn-inverse" >
+                                                                      
+                                                                      <button type="button"  class="btn  dropdown-toggle"  style="color:#C0C0C0;background-color:#202020;" data-toggle="dropdown">Filtros <span class="caret"></span> </button>
+                                                                      <ul class="dropdown-menu" style="color:White;background-color:#202020;">
+                                                                        <li><a href="#users" style="color:#C0C0C0;">1. La aceptación por parte de los Usuarios</a></li>
+                                                                        <li><a href="#capacidad" style="color:#C0C0C0;">2. Capacidad legal de los usuarios</a></li>
+                                                                        <li><a href="#notificaciones" style="color:#C0C0C0;">3. Notificaciones y comunicaciones</a></li>
+                                                                      </ul>
+                                                                    </div><!-- /btn-group -->
+                                                                    <div data-spy="scroll" data-target="#navbarExample" data-offset="0" class="scrollspy-example">
+                                                                      <h4 id="users">1. La aceptación por parte de los Usuarios</h4>
+                                                                      <p>CodeFriends!, se reserva el derecho a exigir que cada usuario, acepte y cumpla los términos aquí expresados como condición previa y necesaria para el acceso, y utilización de los servicios y/o contenidos brindados por el Sitio.Cuando un usuario accediere al Sitio y utilizare cualquiera de los servicios y/o contenidos existentes, hará presumir el conocimiento del presente texto y que ha manifestado su plena aceptación con respecto a todas y cada una de las disposiciones que lo integran.El usuario que no acepte, se halle en desacuerdo, o incurriere en incumplimiento de las disposiciones fijadas por CodeFriends! en estas Condiciones Generales, no contará con autorización para el uso de los servicios y contenidos que existen o puedan existir en el Sitio, debiendo retirarse del Sitio en forma inmediata, y abstenerse de ingresar nuevamente al mismo.</p>
+                                                                      <h4 id="capacidad">2. Capacidad legal de los usuarios</h4>
+                                                                      <p>Solo podrán acceder y utilizar los servicios y/o contenidos CodeFriends!, quienes a tenor de la legislación vigente en su lugar de residencia puedan válidamente emitir su consentimiento para la celebración de contratos. Quienes a tenor de la legislación vigente no posean tal capacidad para acceder u obligarse válidamente a los términos y condiciones aquí establecidos, deberán obtener inexcusablemente autorización previa de sus representantes legales, quienes serán considerados responsables de todos los actos realizados por los incapaces a su cargo.Cuando se trate de falta de capacidad por minoría de edad, la responsabilidad en la determinación de los servicios y contenidos a los que acceden los menores de edad corresponde a los mayores a cuyo cargo se encuentren, sin embargo en ningún caso estará permitido el acceso al sitio por parte de menores de 13 años de edad.</p>
+                                                                      <h4 id="notificaciones">3. Notificaciones y comunicaciones</h4>
+                                                                      <p>A los fines que los usuarios puedan tomar contacto con CodeFriends! se considerarán válidas las comunicaciones dirigidas a: denuncias[@]codefriends.net.Las notificaciones y comunicaciones cursadas por Taringa! a la casilla de correo electrónico que surja como dirección de correo del usuario o remitente se considerarán eficaces y plenamente válidas. Asimismo se considerarán eficaces las comunicaciones que consistan en avisos y mensajes insertos en el sitio, o que se envíen durante la prestación de un servicio, que tengan por finalidad informar a los usuarios sobre determinada circunstancia.</p>
+                                                                    </div>
+                                                                  </div>
+						                                    </div>
+						                                    <div class="modal-footer" style="background-color:#242424 ">
+                                                                 <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+						                                    </div>
+					                                    </div>
+				                                    </div>
+			                                    </div>
+                                    </div>
+                                </div>
+                </fieldset>
+            </form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
